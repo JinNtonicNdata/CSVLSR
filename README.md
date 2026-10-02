@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Dashboard of a living review of interventions to prevent childhood sexual violence victimisation and perpetration
 
 R Shiny code for an interactive dashboard presenting up-to-date evidence
