@@ -1,0 +1,26 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Data, usage logs and deployment files are kept out of the public repository
+CSVLSR_QA_subset.xlsx
+World Bank Classification.xlsx
+Dummy data_extraction HIC.xlsx
+Pilot_data_extraction_HIC.xlsx
+metrics_log.csv
+unmatched_countries_worldbank.csv
+country_map_diagnostics.csv
+rsconnect/
+.claude/
+
+# Fonts, logos and images are not distributed with the code
+www/
+*.otf
+*.ttf
+*.png
+*.jpg
+
+# Full private version of the app
+app_CSVLSR.R
+README.html

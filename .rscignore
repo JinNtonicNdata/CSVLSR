@@ -1,0 +1,15 @@
+# Files that must not be uploaded to shinyapps.io / Posit Connect when deploying.
+# (rsconnect::deployApp() reads this file; the app itself does not need any of these.)
+
+# Usage log and other files the app writes while it runs
+metrics_log.csv
+unmatched_countries_worldbank.csv
+country_map_diagnostics.csv
+
+# Development files
+.claude
+README.md
+
+# Unused example data
+Dummy data_extraction HIC.xlsx
+Pilot_data_extraction_HIC.xlsx
