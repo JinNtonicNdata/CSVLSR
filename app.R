@@ -6331,6 +6331,7 @@ server <- function(input, output, session) {
   # ---------------------------------------------------------------------------
   approach_modal <- function() {
     osf_link <- tags$a(href = "https://osf.io/d2srw/overview", target = "_blank", "here")
+    github_link <- tags$a(href = "https://github.com/JinNtonicNdata/CSVLSR", target = "_blank", "here")
 
     faq_item <- function(question, ...) {
       tags$li(
@@ -6354,7 +6355,7 @@ server <- function(input, output, session) {
         style = "line-height:1.6; font-family:'General Sans', sans-serif;",
 
         tags$p(
-          "More information on our approach is published ", osf_link, ". Below we share some of the key questions about the approach. We hope this will inform your engagement with the dashboard. Please use the feedback buttons to give us your feedback and the submit evidence button to help us grow this resource."
+          "More information on our approach is published ", osf_link, ". The code for the dashboard is published ", github_link, ". Below we share some of the key questions about the approach. We hope this will inform your engagement with the dashboard. Please use the feedback buttons to give us your feedback and the submit evidence button to help us grow this resource."
         ),
 
         tags$ul(
